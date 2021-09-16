@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#8DA5CC"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:background="#009688"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="in minutes"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FFC107"
+        android:text="Select Your Birth Date"
+        android:textColor="#777E7E"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/showSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:textColor="#FFEB3B"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Selected Date"
+        android:textColor="#9F3A3936"
+        android:textSize="20sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/showMinute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30sp"
+        android:textColor="#FFEB3B"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age in Minutes"
+        android:textSize="20sp"
+        android:textColor="#9F3A3936"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>
